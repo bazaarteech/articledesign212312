@@ -1,3 +1,4 @@
+
 img {
         max-width: 100%;
         height: auto;
@@ -9,7 +10,21 @@ img {
     img.no-click {
         pointer-events: none;
     }
+    .sector {
+        width: 50%;
+        float: left;
+        box-sizing: border-box;
+        padding: 10px;
+        border: 3px solid transparent;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
 
+    .sector img {
+        width: 100%;
+        border-radius: 5px;
+        cursor: pointer;
+    }
     /* تنسيق المراجعات */
     .custom-review-widget {
         display: flex;
@@ -368,18 +383,4 @@ img {
             opacity: 0; /* إخفاء العنصر */
             transform: translateY(-100px); /* تحريكه للأعلى لإخفائه */
         }
-        .sector {
-        width: 50%;
-        float: left;
-        box-sizing: border-box;
-        padding: 10px;
-        border: 3px solid transparent;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .sector img {
-        width: 100%;
-        border-radius: 5px;
-        cursor: pointer;
-    }
+        
