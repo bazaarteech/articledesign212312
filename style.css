@@ -1,15 +1,3 @@
-
-img {
-        max-width: 100%;
-        height: auto;
-        display: block;
-        margin: auto;
-        box-shadow: none;
-    }
-
-    img.no-click {
-        pointer-events: none;
-    }
     .sector {
         width: 50%;
         float: left;
@@ -25,6 +13,18 @@ img {
         border-radius: 5px;
         cursor: pointer;
     }
+img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+        box-shadow: none;
+    }
+
+    img.no-click {
+        pointer-events: none;
+    }
+    
     /* تنسيق المراجعات */
     .custom-review-widget {
         display: flex;
